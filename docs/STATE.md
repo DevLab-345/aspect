@@ -7,7 +7,7 @@ A study aid for the navigation rules: what a vessel's lights and shapes tell you
 and what the marks in a channel mean. Every picture is generated from a rule and a
 viewing angle. There are no stored diagrams.
 
-- **Remote:** https://github.com/cjsmctaggart1987/aspect — public, no licence file (all rights reserved)
+- **Remote:** https://github.com/DevLab-345/aspect — public, no licence file (all rights reserved)
 - **Stack:** plain ES modules, no bundler, no framework. `serve` for dev, two Node scripts.
 - **State:** working tree clean, 57 commits.
 
@@ -413,10 +413,10 @@ a can-shaped block of colour. Now `clip-<mark.id>`.
    Annex IV — the distress section cites it by paragraph. Rule 3(m) and Rule 18(f) are
    addressable but empty. Replacing the source is one command; the structure is read
    from the file, so a better copy replaces the lot.
-4. **The canonical URL is a guess.** `https://cjsmctaggart1987.github.io/aspect/` is what
-   the canonical link and both Open Graph image URLs point at, chosen because it is where
-   this repo would publish by default. If it is deployed anywhere else, those three tags
-   are wrong and a preview card will 404.
+4. **The canonical URL is the GitHub Pages address.** `https://devlab-345.github.io/aspect/`
+   is where the site is published (Pages, `main`, repo root) and what the canonical link
+   and the Open Graph and Twitter image URLs point at. If it moves to a custom domain,
+   those tags need to follow or a preview card will 404.
 5. **No cloze blanks have been authored.** There is text to author them against now.
    They are picked by hand on purpose: a generator has no idea which word carries the
    rule, so it asks for "the" and "of".
